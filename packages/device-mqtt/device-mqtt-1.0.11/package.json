@@ -1,0 +1,67 @@
+{
+  "_from": "device-mqtt",
+  "_id": "device-mqtt@1.0.10",
+  "_inBundle": false,
+  "_integrity": "sha512-AR1R+sPHttaBH6NyHbwlMFdcK3G/Drl7xalhRZ4ogV6l1IKeOp5ZOmOJ9obSUlc9XL+GyUli0OSwN/dtUCkbPw==",
+  "_location": "/device-mqtt",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "device-mqtt",
+    "name": "device-mqtt",
+    "escapedName": "device-mqtt",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/device-mqtt/-/device-mqtt-1.0.10.tgz",
+  "_shasum": "0dbe8db88d2295a561021646df866e42b6fcc2a5",
+  "_spec": "device-mqtt",
+  "_where": "C:\\npmjs\\NPMInstaller\\node\\sprijkdevice-mqtt",
+  "bugs": {
+    "url": "https://github.com/viriciti/device-mqtt/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "async": "^2.6.0",
+    "debug": "^3.1.0",
+    "eventemitter2": "^5.0.1",
+    "is-json": "^2.0.1",
+    "mqtt": "^2.17.0",
+    "randomstring": "^1.1.5",
+    "tape": "^4.8.0",
+    "underscore": "^1.8.3"
+  },
+  "deprecated": false,
+  "description": "## client",
+  "devDependencies": {
+    "coffeetape": "^1.0.1",
+    "leaked-handles": "^5.2.0",
+    "tap-spec": "^4.1.1",
+    "tap-summary": "^4.0.0",
+    "tape": "^4.9.0"
+  },
+  "files": [
+    "build"
+  ],
+  "homepage": "https://github.com/viriciti/device-mqtt#readme",
+  "license": "ISC",
+  "main": "build/index.js",
+  "name": "device-mqtt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viriciti/device-mqtt.git"
+  },
+  "scripts": {
+    "build": "coffee --output build --compile src",
+    "test": "coffeetape test/*.test.coffee | tap-summary",
+    "test-debug": "NODE_ENV=development nodemon test/*.test.coffee --exec coffeetape test/*.test.coffee | tap-spec",
+    "test-dev": "NODE_ENV=development coffeetape test/*.test.coffee | tap-summary"
+  },
+  "version": "1.0.11"
+}

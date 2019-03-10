@@ -1,4 +1,4 @@
-# device-mqtt-1.0.11
+# device-mqtt@1.0.11
 
 * Added: 10 Mar 2019
 * Updated: 10 Mar 2019
